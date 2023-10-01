@@ -1,0 +1,10 @@
+﻿@model lab1.Models.Calculator
+@{
+    ViewData["Title"] = "Calculator";
+}
+<form>
+    <input type="number" asp-for="a" />Pierwsza Liczba
+    <input type="number" asp-for="b" />Druga liczba
+    <input type="text" asp-for="c" />Znak
+</form>
+<p>wynik: @calc.wynik</p>
